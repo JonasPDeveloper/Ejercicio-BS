@@ -55,31 +55,7 @@ header {
   align-items: center;
 }*/
 
-.imagenNav {
-  align-self: initial;
-  align-content: flex-start;
-  display: inline;
-}
 
-.img__logo {
-  width: 150px;
-  height: 100px;
-  margin: 0;
-  align-self: right;
-  background-color: transparent;
-}
-
-.img__logo:hover {
-  animation: logo 5s linear;
-}
-@keyframes logo {
-  0% {
-    transform: translateX(50%);
-  }
-  50% {
-    transform: rotateX(35deg);
-  }
-}
 /*
 .nav_list {
   list-style: none;
