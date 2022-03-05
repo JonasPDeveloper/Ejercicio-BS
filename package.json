@@ -1,0 +1,23 @@
+{
+  "name": "ejercicio_bs",
+  "version": "1.0.0",
+  "description": "Mi proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "sass --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JonasPDeveloper/Ejercicio-BS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JonasPDeveloper/Ejercicio-BS/issues"
+  },
+  "homepage": "https://github.com/JonasPDeveloper/Ejercicio-BS#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}

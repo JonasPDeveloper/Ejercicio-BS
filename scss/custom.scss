@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,300;0,700;1,400&family=Montserrat:wght@100;400;700&display=swap");
+$font-family-base: "Montserrat", sans-serif;
+$primary: #de8efa;
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.bg-main {
+  background-color: $primary;
+}
+
+.img-fluid:hover {
+  animation: foto 5s linear;
+}
+
+@keyframes foto {
+  0% {
+    transform: translateZ(30%);
+  }
+  50% {
+    transform: 50%;
+  }
+}
+.imagenNav {
+  align-self: initial;
+  align-content: flex-start;
+  display: inline;
+}
+
+.img__logo {
+  width: 150px;
+  height: 100px;
+  margin: 0;
+  align-self: right;
+  background-color: transparent;
+}
+
+.img__logo:hover {
+  animation: logo 5s linear;
+}
+@keyframes logo {
+  0% {
+    transform: translateX(50%);
+  }
+  50% {
+    transform: rotateX(35deg);
+  }
+}
