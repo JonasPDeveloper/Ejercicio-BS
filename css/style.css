@@ -35,9 +35,6 @@ header {
   z-index: 1;
 }*/
 
-
-
-
 /*.container_nav {
   width: 100%;
   height: 20vh;
@@ -188,13 +185,13 @@ header {
 .row_main-right {
   width: 30vw;
   /* overflow: hidden;*/
-/* align-content: center;
+  /* align-content: center;
   text-align: center;
   align-self: flex-end;
   padding-left: 3rem;
 }*/
 
-/*.video_main {
+  /*.video_main {
   width: 100px;
   height: 100px;
 }
@@ -242,46 +239,40 @@ iframe {
 
 /**CSS--RECETAS*/
 
-/*RECETAS*/
-
- .titulo-Recetas {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 50px;}
+  /*RECETAS*/
 
   .container_recetas {
-  background-color: #de8efa;
-}
+    background-color: #de8efa;
+  }
 
-.flex_recetas-col {
-  display: flex;
-  flex-direction: column;
-  margin-top: 2rem;
-}
+  .flex_recetas-col {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+  }
 
-.titulos-food {
-  margin: 2rem 1rem 1rem 1.5rem;
-}
+  .titulos-food {
+    margin: 2rem 1rem 1rem 1.5rem;
+  }
 
-.flex_recetas-row {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-content: space-between;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-}*/
-p {
-  text-align: center;
-  margin: 1rem 2rem 1rem 3rem;
-}
-.p_recetas {
-  align-content: center;
-  margin-left: 3 rem;
-}
+  .flex_recetas-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-between;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  */ p {
+    text-align: center;
+    margin: 1rem 2rem 1rem 3rem;
+  }
+  .p_recetas {
+    align-content: center;
+    margin-left: 3 rem;
+  }
 
-.video_recetas {
+  .video_recetas {
   text-align: center;
   margin: 2rem 1rem 1rem 3rem;
 }
